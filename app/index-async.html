@@ -30,18 +30,14 @@
     // load all of the dependencies asynchronously.
     $script([
       'lib/angular/angular.js',
-      'js/app.js',
-      'js/services.js',
-      'js/controllers.js',
-      'js/filters.js',
-      'js/directives.js'
+      'app/application/application.js'
     ], function() {
       // when all is done, execute bootstrap angular application
       angular.bootstrap(document, ['myApp']);
     });
   </script>
   <title>My AngularJS App</title>
-  <link rel="stylesheet" href="css/app.css">
+  <link rel="stylesheet" href="css/flightmap.css">
 </head>
 <body>
   <ul class="menu">
