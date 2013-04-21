@@ -12,9 +12,9 @@
 
   <div ng-controller="FlightMapCtrl">
       <ul>
-          <li ng-repeat="vehicle in vehicles">
-            make: {{ vehicle.make }}<br />
-            transponder id: {{ vehicle.transponderID }}
+          <li ng-repeat="vehicle in aircraft">
+            transponder id: {{ vehicle.transponderID }}<br />
+            airspeed: {{ vehicle.velocity.speed }}
           </li>
       </ul>
 
