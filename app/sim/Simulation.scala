@@ -63,8 +63,8 @@ object Simulator {
     
     // add a couple of aircraft
     system.scheduler.scheduleOnce(5 seconds) {
-      simulation ! Simulation.AddAircraft(Aircraft("a", 2, LatLong(40.753716F, -73.988285F), Velocity(100, 100)))
-      simulation ! Simulation.AddAircraft(Aircraft("b", 3, LatLong(40.778938F, -73.967857F), Velocity(0, 50)))
+      //simulation ! Simulation.AddAircraft(Aircraft("a", 2, LatLong(40.753716F, -73.988285F), Velocity(100, 100)))
+      //simulation ! Simulation.AddAircraft(Aircraft("b", 3, LatLong(40.778938F, -73.967857F), Velocity(0, 50)))
     }
   }
 }

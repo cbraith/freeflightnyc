@@ -27,7 +27,7 @@ abstract class AircraftBehavior{
 
 
 //class Aircraft(val transponderID, _altitude: Int) extends Actor with FSM[AircraftState, Data] {
-class Aircraft(val transponderID: String, var _altitude: Int) extends Actor with akka.actor.ActorLogging{
+case class Aircraft(val transponderID: String, var _altitude: Int) extends Actor with akka.actor.ActorLogging{
       def altitude: Int = { _altitude }
 
       def provision() = {}
