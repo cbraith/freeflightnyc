@@ -18,12 +18,9 @@ angular.module('myApp.directives', []).
         };
 
         console.log('directive:', scope);
-        var map = new google.maps.Map(document.getElementById("flight-map"),
+        var map = new google.maps.Map(document.getElementById('flight-map'),
             mapOptions),
-            nyBostonBounds = map.getBounds();
-
-        console.log('NYC/Boston Boundary', nyBostonBounds);
-
+            nyBostonBounds = {};
     }
 }]);
 
