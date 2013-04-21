@@ -1,7 +1,7 @@
 /* app css stylesheet */
 
 #flight-map {
-    width: 500px;
+    width: 98%;
     height: 500px;
     border: double 1px black;
 }

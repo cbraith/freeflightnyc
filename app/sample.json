@@ -28,7 +28,7 @@
             }
         },
         {
-            "transponderID": "XXX123",
+            "transponderID": "XXX456",
             "make": "Boeing",
             "model": "797",
             "velocity": {
@@ -40,7 +40,7 @@
                     "lat":"",
                     "lng":""
                 },
-                "speed":550
+                "speed":650
             }
         }
     ]
