@@ -14,8 +14,8 @@ angular.module('myApp.controllers', []).
         data.load({
             url: 'sample.json',
             resultHandler: function flightsHandler (response) {
-                console.log('data', response);
                 $scope.vehicles = response.vehicles;
+                console.log('data', $scope.vehicles);
             }
         })
   }]);

@@ -14,7 +14,6 @@ angular.module('myApp.services', []).
                 load: function load (options) {
                 $http({ method: 'GET', url: options.url }).
                     then(function (response) {
-                        console.log(response.data, 'heres the raw response text');
                         var d = response.data;
 
                         // Handle some results

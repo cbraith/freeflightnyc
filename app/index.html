@@ -2,10 +2,10 @@
 <html lang="en" ng-app="myApp">
 <head>
   <meta charset="utf-8">
-  <title>My AngularJS App</title>
+  <title>FreeFlight NYC</title>
   <link rel="stylesheet" href="css/app.css"/>
     <script type="text/javascript"
-            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAXGqQB16qwIK6n5KsUMtRNwUeq-vHE7o8&sensor=FALSE">
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAXGqQB16qwIK6n5KsUMtRNwUeq-vHE7o8&sensor=false">
     </script>
 </head>
 <body>
@@ -14,12 +14,14 @@
       <ul>
           <li ng-repeat="vehicle in vehicles">
             make: {{ vehicle.make }}<br />
-            transponder id: {{ vehicle.tailNumber }}
+            transponder id: {{ vehicle.transponderID }}
           </li>
       </ul>
+
+      <div id="flight-map" flight-map></div>
   </div>
 
-  <div id="flight-map"></div>
+
 
   <div>FreeFlight NYC</div>
 
