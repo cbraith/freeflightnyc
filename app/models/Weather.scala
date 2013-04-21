@@ -21,7 +21,7 @@ object CardinalDirection{
 
 
 class Temperature(val celsius: Int){
-      def fahrenheit: Int: { ((celsius - 32)*5)/9  } 
+      //def fahrenheit: Int: { ((celsius - 32)*5)/9  } 
 }
 
 
@@ -43,7 +43,7 @@ class Wind(val speed: Int, val direction: CardinalDirection)
 
 class Distance(val miles: Int){
 
-      def kilometers
+      //def kilometers
 }
 
 
@@ -51,7 +51,7 @@ class Visibility(val miles: Distance)
 
 
 
-class MetConditions(val precipitation: PrecipitiationType=PrecipitationType.NONE, 
+class MetConditions(val precipitation: PrecipitationType=PrecipitationType.NONE, 
       		    val wind: Wind,
 		    val temperature: Temperature,
 		    val visibility: Visibility){
