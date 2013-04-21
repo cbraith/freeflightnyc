@@ -15,7 +15,7 @@ case class Velocity(direction: Int, speed: Int)
  */
 object formats {
   implicit val latLongF = Json.format[LatLong]
-  implicit val velocityF = Json.format[Velocity]
+  //implicit val velocityF = Json.format[Velocity]
   implicit val aircraftF = Json.format[Aircraft]
   
   // events
