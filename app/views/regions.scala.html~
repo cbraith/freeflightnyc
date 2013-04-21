@@ -1,0 +1,7 @@
+@(message: String)
+
+@main("FreeFLight regions") {
+    
+    Hello from the Region controller!
+    
+}
