@@ -1,14 +1,47 @@
 {
-    "vehicles": [
+    "map": {
+      "se": {
+          "lat":"",
+          "lng":""
+      },
+      "nw": {
+        "lat":"",
+        "lng":""
+      },
+      "name": ""
+    },
+    "aircraft": [
         {
             "transponderID": "XXX123",
             "make": "Boeing",
-            "model": "797"
+            "model": "797",
+            "velocity": {
+                "se": {
+                    "lat":"",
+                    "lng":""
+                },
+                "nw": {
+                    "lat":"",
+                    "lng":""
+                },
+                "speed":550
+            }
         },
         {
-            "transponderID": "YYY456",
-            "make": "Airbus",
-            "model": "690"
+            "transponderID": "XXX123",
+            "make": "Boeing",
+            "model": "797",
+            "velocity": {
+                "se": {
+                    "lat":"",
+                    "lng":""
+                },
+                "nw": {
+                    "lat":"",
+                    "lng":""
+                },
+                "speed":550
+            }
         }
     ]
 }
