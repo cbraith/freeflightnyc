@@ -13,7 +13,7 @@ angular.module('myApp.directives', []).
     return function (scope, el, attrs) {
         var p, planes = [],
             mapOptions = {
-            center: new google.maps.LatLng(41.5784, -73.364661),
+            center: new google.maps.LatLng(41.5784, -72.364661),
             zoom: 8,
             mapTypeId: google.maps.MapTypeId.ROADMAP
         };
