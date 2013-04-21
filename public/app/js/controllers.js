@@ -16,6 +16,7 @@ angular.module('myApp.controllers', []).
             resultHandler: function flightsHandler (response) {
                 $scope.aircraft = response.aircraft;
                 console.log('data', $scope.aircraft);
+                $scope.$broadcast('data-loaded');
             }
         })
   }]);
