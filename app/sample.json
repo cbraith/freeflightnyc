@@ -1,12 +1,12 @@
 {
     "vehicles": [
         {
-            "tailNumber": "XXX123",
+            "transponderID": "XXX123",
             "make": "Boeing",
             "model": "797"
         },
         {
-            "tailNumber": "YYY456",
+            "transponderID": "YYY456",
             "make": "Airbus",
             "model": "690"
         }

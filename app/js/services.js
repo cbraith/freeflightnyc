@@ -15,11 +15,11 @@ angular.module('myApp.services', []).
                 $http({ method: 'GET', url: options.url }).
                     then(function (response) {
                         console.log(response.data, 'heres the raw response text');
-                        var data = response.data
+                        var d = response.data;
 
                         // Handle some results
                         if (options.resultHandler) {
-                            options.resultHandler(data);
+                            options.resultHandler(d);
                         }
                     });
                 }
